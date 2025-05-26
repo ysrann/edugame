@@ -1,9 +1,9 @@
 // Audio
-const backgroundMusic = new Audio("music.mp3");
+const backgroundMusic = new Audio("AUD-20250526-WA0006.m4a");
 backgroundMusic.loop = true;
 
-const diceSound = new Audio("dice.mp3");
-const winSound = new Audio("win.mp3");
+const diceSound = new Audio("dice-142528.mp3");
+const winSound = new Audio("win-176035.mp3");
 
 // Tombol kontrol musik
 const musicToggle = document.createElement("button");
@@ -44,7 +44,7 @@ const timerEl = document.getElementById("timer");
 let turn = 1;
 let positions = [0, 0];
 let isRolling = false;
-let questionPositions = [5, 12, 18, 26, 32, 35, 43, 48, 51, 59, 66, 73, 83, 88, 94, 98];
+let questionPositions = [5, 12, 18, 26, 32, 35, 43, 48, 51, 59, 66, 73, 82, 88, 94, 97];
 let timer;
 
 const questions = [
